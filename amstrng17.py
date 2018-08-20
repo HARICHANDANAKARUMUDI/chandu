@@ -1,0 +1,11 @@
+c=int(input(""))
+temp=c
+sum=0
+while(c>0):
+    rem=c%10
+    sum=rem**3+sum
+    c=c//10
+if(temp==sum):
+    print("yes")
+else:
+    print("no")
